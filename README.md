@@ -1,3 +1,8 @@
+# This module is a fork of the official MMM-RemoteControl module, to allow the control of the MMM-SmartWebDisplay module
+
+![The Main Menu](.github/RemoteSWD.png)
+![The Power Menu](.github/RemoteSWD_2.png)
+
 # Magic Mirror Module: Remote Control
 
 This module for the [Magic Mirror²](https://github.com/MichMich/MagicMirror) allows you to quickly shutdown your mirror through a web browser.
