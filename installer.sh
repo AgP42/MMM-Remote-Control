@@ -119,7 +119,7 @@ else
             echo ""
             echo "Cloning the repository on $BRANCH branch..."
             echo ""
-            git clone https://github.com/Jopyth/MMM-Remote-Control.git -b $BRANCH
+            git clone https://github.com/AgP42/MMM-Remote-Control.git -b $BRANCH
             if [ $? -ne 0 ]; then
                 echo "Failed. Do you have an internet connection?"
                 exit 1;
@@ -179,7 +179,7 @@ if check_no "Do you want to view instructions on how to configure the module?"; 
 fi
 echo "Have fun with the module, if you have any problems, please search for help on github or in the forum:"
 echo ""
-echo "   Github : https://github.com/Jopyth/MMM-Remote-Control"
+echo "   Github : https://github.com/AgP42/MMM-Remote-Control"
 echo "   Forum  : http://forum.magicmirror.builders"
 echo ""
 echo "Do not forget to restart your MagicMirror2 to activate the module! Installation finished."
